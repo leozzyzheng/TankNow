@@ -1,0 +1,45 @@
+{
+    "name": "GlobalInputActions",
+    "maps": [
+        {
+            "name": "StartNewPlayer",
+            "id": "bebcbcf7-6a79-49a6-ae3b-0ab6079876b4",
+            "actions": [
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "fdfe0761-a278-4ef3-94af-14361fa19efd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "428ce58a-1345-42f7-8cd8-e22b42de2746",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1def2a6d-503d-4316-af7a-764356a8ff9b",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
